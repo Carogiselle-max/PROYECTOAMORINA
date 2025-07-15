@@ -1,0 +1,7 @@
+.anuncio{
+    height: 150px;
+}
+.banner .text-banner{
+    color: var(--colorAmarillo);
+    text-shadow: 0 0 8px var(--colorAmarillo);
+}
