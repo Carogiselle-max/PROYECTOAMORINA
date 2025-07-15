@@ -5,3 +5,33 @@
     color: var(--colorAmarillo);
     text-shadow: 0 0 8px var(--colorAmarillo);
 }
+.img-producto-1{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-producto-2{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-producto-3{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-producto-4{
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+.img-producto-5{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-producto-6{
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+}
