@@ -1,0 +1,32 @@
+/* Fondo gris claro para toda la sección del carrito */
+#carrito {
+  background-color: #f8f9fa !important;
+  background-image: none !important;
+  position: relative;
+  z-index: 1;
+}
+
+/* Suavizar el hover de los items */
+.list-group-item {
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f1f3f5;
+}
+
+/* Si hay un fondo global, lo anulamos en body cuando está en carrito.html */
+body {
+  background-image: none !important;
+  background-color: #ffffff;
+}
+
+/* Ajustes responsive y visuales para inputs */
+input[type="number"] {
+  min-width: 60px;
+}
+
+/* Opcional: resaltar los totales */
+.card .fw-bold {
+  color: #212529;
+}
