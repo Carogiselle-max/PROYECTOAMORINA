@@ -3,6 +3,10 @@
 @import "./general.css";
 @import "./variables.css";
 @import "./footer.css";
+<<<<<<< HEAD
 @import "./registro.css";
 @import "./login.css";
 @import "./producto.css";
+=======
+@import "./principal.css";
+>>>>>>> feature/pag-pincipal
