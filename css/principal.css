@@ -38,3 +38,7 @@
 .card-info{
     background-color: var(--colorAmarillo);
 }
+.card-img{
+    height: 200px;
+    object-fit: cover;
+}
