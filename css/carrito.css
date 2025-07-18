@@ -1,6 +1,6 @@
 /* Fondo gris claro para toda la sección del carrito */
 #carrito {
-  background-color: #f8f9fa !important;
+  background-color: #51471f !important;
   background-image: none !important;
   position: relative;
   z-index: 1;
@@ -27,6 +27,11 @@ input[type="number"] {
 }
 
 /* Opcional: resaltar los totales */
-.card .fw-bold {
+.card {
+  color: #212529;
+  background-color:#ffec99;
+  
+}
+.fw-bold{
   color: #212529;
 }
