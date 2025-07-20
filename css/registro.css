@@ -3,9 +3,9 @@ body{
 }
 
 .container-register{
-    background-color: rgba(252, 232, 232, 0.466);
-    border-radius: 500px;
-    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
     margin-top: 50px;
 }
 
