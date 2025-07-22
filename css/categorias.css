@@ -1,0 +1,63 @@
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
+    width: 100;
+}
+
+/* 🎨 Estilo para las imágenes del carrusel */
+.carousel-inner img {
+  border: 4px solid rgba(255, 255, 255, 0.9); /* borde blanco suave */
+  border-radius: 16px;
+  padding: 4px;
+  background-color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25); /* sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🎯 Efecto al pasar el mouse */
+.carousel-inner img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* 🟡 Estilo general para la sección de carruseles */
+.container-custom {
+  background-color: #fffde8;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 🟨 Mejora visual del texto */
+.descripcion-2 {
+  background-color: #fffef3 !important;
+  color: #333 !important;
+  border: 1px solid #f5d85d;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+/* 🔘 Botón personalizado dentro del texto */
+.descripcion-2 .btn {
+  background-color: #fdd835;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover del botón */
+.descripcion-2 .btn:hover {
+  background-color: #fbc02d;
+  transform: scale(1.05);
+  color: #000;
+}

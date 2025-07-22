@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/70237f5723.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/logos/logo-amorina-circular.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Registro</title>
+</head>
+<body class="fondo-login">
+    <div class="container-register">
+        <div class="row justify-content-center">
+            <div class="col-md-6 p-4 rounded-4 shadow-lg bg-gray">
+                <h1 class="text-center mt-5">Registrarse</h1>
+                <form action="./php/registro.php" method="POST" class="mt-4">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su Nombre y Apellido" maxlength="15" required>
+                        <div>
+                            <label for="tipo" class="form-label">Tipo de Usuario</label>
+                            <select class="form-select" id="tipo" name="tipo" required>
+                                <option value="" disabled selected>Seleccione un tipo de usuario</option>
+                                <option value="cliente">Cliente</option>
+                                <option value="repartidor">Repartidor</option>
+                                <option value="administrador">Administrador</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Ingrese su teléfono" maxlength="15" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="domicilio" class="form-label">Domicilio</label>
+                        <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Ingrese su domicilio" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Ingrese su contraseña" maxlength="10" required>
+                    </div>
+                    <div>
+                        <label for="codigo-postal" class="form-label">Código Postal</label>
+                        <input type="text" class="form-control" id="codigo-postal" name="codigo-postal" placeholder="Ingrese su código postal" maxlength="8" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                </form>
+                <p class="text-center mt-3"><a href="./FormularioLogin.html">¿Ya tienes una cuenta? Inicia sesión aquí</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
